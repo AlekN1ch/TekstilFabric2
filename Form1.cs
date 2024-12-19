@@ -146,5 +146,10 @@ namespace TekstilFabric2
             Making making = new Making();
             making.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

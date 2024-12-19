@@ -46,27 +46,32 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.YellowGreen;
+            this.button3.Font = new System.Drawing.Font("Trebuchet MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(0, 168);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(161, 66);
             this.button3.TabIndex = 8;
             this.button3.Text = "Рецепты";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(0, 96);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 66);
             this.button2.TabIndex = 7;
             this.button2.Text = "Главное меню";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.MediumPurple;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.кодDataGridViewTextBoxColumn,
@@ -120,18 +125,21 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(12, 361);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 68);
             this.button1.TabIndex = 10;
             this.button1.Text = "Редактировать содержимое";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Skald
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::TekstilFabric2.Properties.Resources.фон_текстиль;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
